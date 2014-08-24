@@ -2,7 +2,7 @@
 ####                                         CODEBOOK                                               ####
 ########################################################################################################
 
-Course Project Getting and Cleaning Data MOOC. Cookbook
+Course Project Getting and Cleaning Data MOOC. Codebook
 August 24, 2014
 
 ########################################################################################################
