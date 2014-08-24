@@ -1,7 +1,7 @@
 ReadMe Getting and Cleaning Data MOOC Course Project
 ====================================================
 August 24, 2014
-Greetings for 
+Greetings from Norway!
 
 Content
 -------
