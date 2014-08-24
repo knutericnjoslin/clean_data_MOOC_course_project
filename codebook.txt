@@ -1,0 +1,275 @@
+########################################################################################################
+####                                         CODEBOOK                                               ####
+########################################################################################################
+
+Course Project Getting and Cleaning Data MOOC. Cookbook
+August 24, 2014
+
+########################################################################################################
+
+Raw data were from the Human Activity Recognition Using Smartphones Dataset Version 1.0
+
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
+Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 
+International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+
+########################################################################################################
+
+
+activity
+	activity category identifier	
+		1. Walking
+		2. Walking upstairs
+		3. Waling downstairs
+		4. Sitting
+		5. Standing
+		6. Laying		
+
+activity.name 
+	names of activity categories 
+		1. WALKING
+		2. WALKING_UPSTAIRS
+		3. WALKING_DOWNSTAIRS
+		4. SITTING
+		5. STANDING
+		6. LAYING
+
+
+subject 
+	unique subject identifier  
+		1...30
+
+tbodyacc.mean...x
+tbodyacc.mean...y                    
+tbodyacc.mean...z
+	average of time domain bodyacc mean data for subject, activity in x,y, and z direction
+		-1...1
+                   
+tbodyacc.std...x
+tbodyacc.std...y                    
+tbodyacc.std...z
+	average of time domain bodyacc standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+
+                     
+tgravityacc.mean...x                
+tgravityacc.mean...y                 
+tgravityacc.mean...z
+	average of time domain gravityacc mean data for subject, activity in x,y, and z direction
+		-1...1
+
+                
+tgravityacc.std...x                  
+tgravityacc.std...y                 
+tgravityacc.std...z
+	average of time domain gravityacc standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+
+                  
+tbodyaccjerk.mean...x               
+tbodyaccjerk.mean...y                
+tbodyaccjerk.mean...z
+	average of time domain bodyaccjerk mean data for subject, activity in x,y, and z direction
+		-1...1
+
+               
+tbodyaccjerk.std...x                 
+tbodyaccjerk.std...y                
+tbodyaccjerk.std...z
+	average of time domain bodyaccjerk standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+       
+tbodygyro.mean...x                  
+tbodygyro.mean...y                   
+tbodygyro.mean...z
+	average of time domain bodygyro mean data for subject, activity in x,y, and z direction
+		-1...1
+   
+tbodygyro.std...x                    
+tbodygyro.std...y                   
+tbodygyro.std...z
+	average of time domain bodygyro standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+                    
+tbodygyrojerk.mean...x              
+tbodygyrojerk.mean...y               
+tbodygyrojerk.mean...z
+	average of time domain bodygyrojerk mean data for subject, activity in x,y, and z direction
+		-1...1
+
+tbodygyrojerk.std...x                
+tbodygyrojerk.std...y               
+tbodygyrojerk.std...z
+	average of time domain bodygyrojerk standard deviation data for subject, activity
+		-1...1
+                
+tbodyaccmag.mean..  
+	average of time domain bodyaccmag mean data for subject, activity
+		-1...1
+               
+tbodyaccmag.std..                    
+	average of time domain bodyaccmag standard deviation data for subject, activity
+		-1...1
+
+tgravityaccmag.mean..               
+	average of time domain gravityaccmag mean data for subject, activity
+		-1...1
+
+tgravityaccmag.std..
+	average of time domain gravityaccmag standard deviation data for subject, activity
+		-1...1                 
+
+tbodyaccjerkmag.mean..              
+	average of time domain bodyaccjerkmag mean data for subject, activity
+		-1...1
+
+tbodygyromag.std..                
+	average of time domain bodygyromag standard deviation data for subject, activity
+		-1...1
+
+tbodygyromag.mean..
+	average of time domain bodygyromag mean data for subject, activity
+		-1...1
+                 
+tbodygyromag.std..                   
+	average of time domain bodygyromag standard deviation data for subject, activity
+		-1...1
+
+tbodygyrojerkmag.mean..             
+	average of time domain bodygyrojerkmag mean data for subject, activity
+		-1...1
+
+tbodygyrojerkmag.std..               
+	average of time domain bodygyrojerkmag standard deviation data for subject, activity
+		-1...1
+
+fbodyacc.mean...x                   
+fbodyacc.mean...y                    
+fbodyacc.mean...z                   
+	average of frequency domain bodyacc mean data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodyacc.std...x                     
+fbodyacc.std...y                    
+fbodyacc.std...z                 
+	average of time domain bodyacc standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodyacc.meanfreq...x               
+fbodyacc.meanfreq...y                
+fbodyacc.meanfreq...z               
+	average of frequency domain bodyacc mean frequency data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodyaccjerk.mean...x                
+fbodyaccjerk.mean...y               
+fbodyaccjerk.mean...z                
+	average of frequency domain bodyaccjerk mean data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodyaccjerk.std...x                
+fbodyaccjerk.std...y                 
+fbodyaccjerk.std...z                
+	average of time domain bodyaccjerk standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodyaccjerk.meanfreq...x
+fbodyaccjerk.meanfreq...y           
+fbodyaccjerk.meanfreq...z            
+	average of frequency domain bodyaccjerk mean frequency data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodygyro.mean...x                  
+fbodygyro.mean...y                   
+fbodygyro.mean...z                  
+	average of frequency domain bodygyro mean frequency data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodygyro.std...x                    
+fbodygyro.std...y                   
+fbodygyro.std...z                    
+	average of frequency domain bodygyro standard deviation data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodygyro.meanfreq...x              
+fbodygyro.meanfreq...y               
+fbodygyro.meanfreq...z              
+	average of frequency domain bodygyro mean data for subject, activity in x,y, and z direction
+		-1...1
+
+fbodyaccmag.mean..                   
+	average of frequency domain bodyaccmag mean data for subject, activity
+		-1...1
+
+fbodyaccmag.std..
+	average of time domain fbodyaccmag standard deviation data for subject, activity
+		-1...1                   
+
+fbodyaccmag.meanfreq..            
+	average of frequency domain bodyaccmag mean data for subject, activity
+		-1...1
+
+fbodybodyaccjerkmag.mean..          
+	average of frequency domain bodybodyaccjerkmag mean data for subject, activity
+		-1...1
+
+fbodybodyaccjerkmag.std..            
+	average of time domain bodybodyaccjerkmag standard deviation data for subject, activity
+		-1...1
+
+fbodybodygyromag.meanfreq..      
+	average of frequency domain bodybodygyromag mean data for subject, activity
+		-1...1
+
+fbodybodygyromag.mean..              
+	average of frequency domain bodybodygyromag mean data for subject, activity 
+		-1...1
+
+fbodybodygyromag.std..          
+	average of time domain bodybodygyromag standard deviation data for subject, activity
+		-1...1
+
+fbodybodygyromag.meanfreq..          
+	average of frequency domain tgravityacc mean data for subject, activity
+		-1...1
+
+fbodybodygyrojerkmag.mean..         
+	average of frequency domain fbodybodygyrojerkmag mean data for subject, activity
+		-1...1
+
+fbodybodygyrojerkmag.std..           
+	average of time domain bodybodygyrojerkmag standard deviation data for subject, activity
+		-1...1
+
+fbodybodygyrojerkmag.meanfreq..
+	average of frequency domain bodybodygyrojerkmag mean data for subject, activity
+		-1...1
+
+angle.tbodyaccmean.gravity.          
+	average of time domain bodyaccmean.gravity data for subject, activity average of the signals in a signal window sample
+		-1...1
+
+angle.tbodyaccjerkmean..gravitymean.
+	average of time domain bodyaccjerkmean..gravity data for subject, activity average of the signals in a signal window sample
+		-1...1
+
+angle.tbodygyromean.gravitymean.     
+	average of time domain tgravityacc data for subject, activity average of the signals in a signal window sample
+		-1...1
+
+angle.tbodygyrojerkmean.gravitymean.
+	average of time domain bodygyromean.gravitymean data for subject, activity average of the signals in a signal window sample
+		-1...1
+
+angle.x.gravitymean.                 
+	average of gravitymean mean data for subject, activity average of the signals in a signal window sample
+		-1...1
+
+angle.y.gravitymean.                
+	average of gravity mean data for subject, activity average of the signals in a signal window sample
+		-1...1
+
+angle.z.gravitymean. 
+	average of gravity mean data for subject, activity average of the signals in a signal window sample
+		-1...1
