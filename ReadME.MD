@@ -29,18 +29,18 @@ If this directory is in the working directory, the script will function properly
 Specifically, this script acts on the following eight files. 
 
 - Files from top level of UCI HAR Dataset directory
-1. *UCI HAR DATASET/activity_labels.txt* 
-2. *UCI HAR DATASET/features.txt*
+    1. *UCI HAR DATASET/activity_labels.txt* 
+    2. *UCI HAR DATASET/features.txt*
 - Files from the test subdirectory of UCI HAR dataset
-3. *UCI HAR DATASET/test/X_test.txt*
-4. *UCI HAR DATASET/test/y_test.txt* 
-5. *UCI HAR DATASET/test/subject_test.txt
+    3. *UCI HAR DATASET/test/X_test.txt*
+    4. *UCI HAR DATASET/test/y_test.txt* 
+    5. *UCI HAR DATASET/test/subject_test.txt
 -Files from the train subdirectory of UCI HAR dataset
-6. *UCI HAR DATASET/train/X_train.txt* 
-7. *UCI HAR DATASET/train/y_train.txt*
-8. *UCI HAR DATASET/train/subject_train.txt*
+    6. *UCI HAR DATASET/train/X_train.txt* 
+    7. *UCI HAR DATASET/train/y_train.txt*
+    8. *UCI HAR DATASET/train/subject_train.txt*
 
-The output of the script is a ``tidy'' dataset *ouput.txt*. Each row of this dataset is a single
+The output of the script is a *tidy* dataset *ouput.txt*. Each row of this dataset is a single
 observation, each column pertains to a single variable, and the variables are all given 
 descriptive names. This is consistent with Hadley Wickhams [principles of tidy data, section 2](http://vita.had.co.nz/papers/tidy-data.pdf).
 This dataset contains *averaged* data for each *subject and activity* for a subset of the original 
